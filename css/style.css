@@ -10,7 +10,7 @@ body {
 	margin: 0;
 	display: flex;
 	justify-content: center;
-}
+} 
 
 .container {
 	min-width: 992px;
@@ -102,7 +102,7 @@ p {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 17px;
-	color: var(--drak-grey-color);
+	color: var(#4B4B4B);
 }
 
 
@@ -120,7 +120,8 @@ p {
 }
 
 .sectionLinearGradientBackground {
-	background: linear-gradient(to right, var(--main-color), var(--second-color));
+	background: linear-gradient(to right, #E44444, #CD487B); 
+	/*background: linear-gradient(to right, var(--main-color), var(--second-color));*/
 }
 
 .whiteContentSection h2,
@@ -134,8 +135,8 @@ p {
 }
 
 /***************/
-.sectionLightGreyBackground {
-	background-color: var(--light-grey-color);
+.pave03 {
+	Background-color: #EDEDED;
 }
 
 .button {
@@ -161,21 +162,23 @@ p {
 	justify-content: center;
 
 	text-decoration: none;
-}
+	}
 
 .buttonDrakGreyColor {
-	color: var(--drak-grey-color);
-	border-color: var(--drak-grey-color);
+	color: var(#4B4B4B);
+	border-color: (#4B4B4B);
 }
 
 .buttonMainColor {
-	color: var(--main-color);
-	border-color: var(--main-color);
+	color: #E44444;
+	border-color: #E44444;
+	border-radius: 39px;
 }
 
 .buttonSecondColor {
-	color: var(--second-color);
-	border-color: var(--second-color);
+	color: #CD487B;
+	border-color: #CD487B;
+	border-radius: 39px;
 }
 
 .buttonRounded {
@@ -186,3 +189,51 @@ p {
 	font-weight: 800;
 	border-width: 3px;
 }
+.fondateur{
+	color:white
+}
+.fondateur{
+	text-align: center;	
+}
+
+/* membres fondateurs
+/* Rectangle 2 */
+/*
+position: absolute;
+width: 1440px;
+height: 596px;
+left: 0px;
+top: 1271px;
+background: linear-gradient(80.28deg, #E44444 0%, #CD487C 77.13%);
+*/
+
+/*
+/* Rectangle 7 */
+/*
+position: absolute;
+width: 1440px;
+height: 503px;
+left: 1px;
+top: 1863px;
+
+background: #EDEDED;
+*/
+
+/* Frame 1 */
+
+/* Auto layout */
+/*display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 28px 40px;
+gap: 10px;
+
+position: absolute;
+width: 413px;
+height: 73px;
+left: 514px;
+top: 2074px;
+
+background: #FFFFFF;
+border: 2px solid #E44444;
+border-radius: 38px;*/
